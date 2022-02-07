@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Table</title>
+    <link rel="stylesheet" href="product.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <form>
+        <label for="pid"> Product Id
+          <input id="pid" class="formElement" type="text" placeholder="Enter Product ID"/></label>
+
+        <label for="pname">Product Name
+            <input id="pname" class="formElement"
+            type="text" placeholder="Enter Product Name"
+        /></label>
+
+        <label for="price">Product Price
+          <input id="price" class="formElement" type="text" placeholder="Enter Price"
+        /></label>
+
+        <input type="button" class="btn" onclick="addProduct()" value="ADD PRODUCT"/>
+      </form>
+      <p id="error"></p>
+      <div id="product">
+        <table>
+          <tr>
+            <th>Product Id</th>
+            <th>Product Name</th>
+            <th>Price</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="product.js"></script>
+  </body>
+</html>
