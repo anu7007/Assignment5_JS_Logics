@@ -1,0 +1,34 @@
+.content{
+    display: block;
+    width: 100;
+    padding: 40px;
+}
+.main{
+    overflow: hidden;
+}
+#name{
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+}
+#age{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 35px;
+}
+#weight{
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+}
+body{
+    text-align: center;
+    margin-top: 5%;
+}
+input{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
