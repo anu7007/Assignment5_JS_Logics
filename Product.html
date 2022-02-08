@@ -23,8 +23,9 @@
           <input id="price" class="formElement" type="text" placeholder="Enter Price"
         /></label>
 
-        <input type="button" class="btn" onclick="addProduct()" value="ADD PRODUCT"/>
-      </form>
+        <input type="button" class="btn" id="addBtn" onclick="addProduct()" value="ADD PRODUCT"/>
+        <input type="button" class="btn" id="updateBtn" onclick="updateProduct()" value="UPDATE PRODUCT">
+      </form> 
       <p id="error"></p>
       <div id="product">
         <table>
